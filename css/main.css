@@ -84,6 +84,31 @@ h3 {
   padding-bottom: 94px;
 }
 
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 21px;
+}
+
+.main-conteiner2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+.footer-elements,
+.subscribe,
+.footer-addres {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -268,8 +293,311 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: #212121;
   margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.our-work-list {
+  position: relative;
+  width: 370px;
+}
+
+.our-work-list + .our-work-list {
+  margin-left: 30px;
+}
+
+.our-work {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.block {
+  display: block;
+}
+
+.quality-second {
+  position: absolute;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-width: 370px;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 80px 27px 80px;
+}
+
+.font {
+  background: #f5f4fa;
+}
+
+.our-team {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.our-people {
+  display: block;
+  width: 270px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-people + .our-people {
+  margin-left: 30px;
+}
+
+.social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  width: 206px;
+}
+
+.social-name2 {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  border-radius: 50%;
+  fill: #afb1b8;
+  -webkit-transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-name2:hover, .social-name2:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+
+.icon-insta {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  fill: inherit;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.network {
+  display: block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.network + .network {
+  margin-left: 10px;
+}
+
+.photo {
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 0;
+}
+
+.profession {
+  margin-bottom: 16px;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.clients {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.our-clients-name {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color color 250ms cubic-bezier(0.4, 0, 0.2, 1), --color5 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-clients-name:hover, .our-clients-name:focus {
+  border-color: #2196f3;
+  --color5: #2196f3;
+}
+
+.our-clients + .our-clients {
+  margin-left: 30px;
+}
+
+.clients-logo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  --color5: inherit;
+}
+
+.footer-studio {
+  color: #ffffff;
+  font-style: normal;
+  margin-top: 0;
+}
+
+.footer-addres p {
+  margin-bottom: 9px;
+}
+
+.footer-logo {
+  display: inline-block;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
+
+.footer-addres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.cotacs-details {
+  display: inline-block;
+  margin-left: auto;
+  margin-bottom: 8px;
+}
+
+.cotacs-details:last-child {
+  margin-bottom: 0;
+}
+
+.mail2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.footer-act {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.social-network2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.social-name {
+  color: #afb1b8;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  border-radius: 50%;
+  background-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-name:hover, .social-name:focus {
+  background-color: #2196f3;
+}
+
+.icon-twitter {
+  display: inline-block;
+  margin: 12px 12px;
+  fill: #ffffff;
+}
+
+.form-field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.form-footer {
+  width: 358px;
+  min-height: 50px;
+}
+
+.buttom {
+  position: relative;
+  display: inline-block;
+  border-color: transparent;
+  min-width: 200px;
+  min-height: 50px;
+  margin-left: 12px;
+  padding: 10px 32px;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #2196f3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.icon-footer {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  bottom: 13px;
+  left: 148px;
+}
+
+.source {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
   margin-top: 0;
 }
 /*# sourceMappingURL=main.css.map */

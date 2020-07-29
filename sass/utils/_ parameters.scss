@@ -65,3 +65,19 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 21px;
+}
+.main-conteiner2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+.footer-elements,
+.subscribe,
+.footer-addres {
+  display: block;
+}

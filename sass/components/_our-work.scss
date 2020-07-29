@@ -1,12 +1,9 @@
 .our-work-list {
-  position: relativemargin-left: 30px;
+  position: relative;
   width: 370px;
-  & + &{
-
+  & + & {
+    margin-left: 30px;
   }
-}
-.our-work-list + .our-work-list {
-  margin-left: 30px;
 }
 .our-work {
   margin-bottom: 50px;
@@ -25,7 +22,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-color);
+  color: $footer-color;
   min-width: 370px;
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
