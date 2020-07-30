@@ -1,4 +1,4 @@
-backdrop {
+.backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -45,7 +45,7 @@ backdrop {
   right: 8px;
   width: 30px;
   height: 30px;
-  background: $footer-colo;
+  background: $footer-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 15px;
@@ -96,7 +96,7 @@ backdrop {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: $text-color;
 }
 .form-button {
   display: flex;
@@ -149,9 +149,9 @@ backdrop {
   left: 19px;
   transform: translateY(-50%);
   transition: fill $animation;
-}
-.form-input:focus ~ .form-icon {
-  fill: var(--main-color);
+  .form-input:focus ~ & {
+    fill: $main-color;
+  }
 }
 .checkbox {
   -webkit-appearance: none;
@@ -176,7 +176,7 @@ backdrop {
   border-radius: 4px;
 }
 .checkbox:checked + .checkbox-icon {
-  border-color: var(--main-color);
+  border-color: $main-color;
   background-image: url(./img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
@@ -190,6 +190,6 @@ backdrop {
   color: #757575;
 }
 .form {
-  color: var(--main-color);
+  color: $main-color;
   text-decoration: underline;
 }

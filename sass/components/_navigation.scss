@@ -32,7 +32,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: $title-color;
-  transition: $animation;
+  transition: color $animation;
   &:hover,
   &:focus {
     color: $main-color;
