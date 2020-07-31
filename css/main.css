@@ -836,7 +836,7 @@ h3 {
 
 .checkbox:checked + .checkbox-icon {
   border-color: #2196f3;
-  background-image: url(./img/icon-check.svg);
+  background-image: url(../../img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
